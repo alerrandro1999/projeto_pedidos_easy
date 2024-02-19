@@ -90682,7 +90682,7 @@ A.NO.prototype={
 w_(a){return this.Y8(a)},
 Y8(a){var s=0,r=A.R(t.z),q,p,o,n,m
 var $async$w_=A.S(function(b,c){if(b===1)return A.O(c,r)
-while(true)switch(s){case 0:p=A.hw("https://datadev.tech/api/v1/products")
+while(true)switch(s){case 0:p=A.hw("https://api.datadev.tech/api/v1/products")
 o=t.N
 n=A.aI(["Content-Type","application/json"],o,o)
 s=3
@@ -90695,7 +90695,7 @@ case 1:return A.P(q,r)}})
 return A.Q($async$w_,r)},
 A3(a){var s=0,r=A.R(t.z),q,p,o,n
 var $async$A3=A.S(function(b,c){if(b===1)return A.O(c,r)
-while(true)switch(s){case 0:o=A.hw("https://datadev.tech/api/v1/insert-product")
+while(true)switch(s){case 0:o=A.hw("https://api.datadev.tech/api/v1/insert-product")
 n=t.N
 n=A.aI(["Access-Control-Allow-Origin","*","Access-Control-Allow-Credentials","true","Access-Control-Allow-Headers","Origin,Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,locale","Access-Control-Allow-Methods","POST, OPTIONS","Content-Type","application/json"],n,n)
 s=3
@@ -90979,7 +90979,7 @@ i=t.z
 o=A.aOb(A.aI(["Content-Type","application/json"],k,i))
 o.a="POST"
 s=4
-return A.V(l.Jj(0,"https://datadev.tech/api/v1/auth/login",null,j,null,null,o,null,i),$async$qR)
+return A.V(l.Jj(0,"https://api.datadev.tech/api/v1/auth/login",null,j,null,null,o,null,i),$async$qR)
 case 4:n=b
 s=n.c===200?5:7
 break
